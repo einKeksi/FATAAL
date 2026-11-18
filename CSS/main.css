@@ -74,14 +74,10 @@ justify-content: center;
 }
 .fataal-titel span {
     display: inline-block;
-    margin-right: -2px;
+    margin-right: -0.18em;
 }
-.fataal-titel span:nth-child(2) { /* Nach dem 1. A (vor dem T) */
-    margin-right: -5px; 
-}
-.fataal-titel span:nth-child(4),
-.fataal-titel span:nth-child(5) { /* Nach den A's vor dem L */
-    margin-right: -5px; 
+.fataal-titel span:last-child {
+    margin-right: 0;
 }
 .fataal-subtitel {
 color: #5E2B54;
