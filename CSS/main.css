@@ -14,8 +14,8 @@
     -webkit-text-size-adjust: 100% !important;
   }
   a {
-    margin-top: 2px !important;
-  }
+    padding: 16px !important;
+    margin: -14px -16px -16px -16px !important;
   a img {
     width: 30px !important;
     height: 30px !important;
