@@ -7,19 +7,26 @@
     margin: 0 !important;
   }
   .fataal-subtitel {
-    font-size: 14px !important;
-    transform: scale(0.45) !important;
-    transform-origin: center !important;
-    line-height: 1 !important;
-    margin: -2px 0 0 0 !important;
+    font-size: 7.5px !important;
+    transform: none !important;
+    line-height: 1.1;
+    margin: 2px 0 4px 0 !important;
     -webkit-text-size-adjust: 100% !important;
   }
   a {
-    margin-top: 0px !important;
+    margin-top: 2px !important;
   }
   a img {
     width: 20px;
     height: 20px;
+  }
+
+  @supports (-webkit-touch-callout: none) {
+    .fataal-subtitel {
+      font-size: 12px !important;
+      transform: scale(0.55) !important;
+      transform-origin: center !important;
+    }
   }
 }
 
