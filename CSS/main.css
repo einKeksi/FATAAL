@@ -1,6 +1,7 @@
 @media (max-width: 768px) {
-    .fataal-subtitel{
+    .fataal-subtitel {
         font-size: 0.7rem !important;
+        margin: -5px 0 10px 0 !important;
     }
     a img {
         width: 45px;
@@ -74,10 +75,8 @@ body {
 }
 .fataal-subtitel {
     color: #5E2B54;
-    font-size: 1.2rem;
-    transform: scale(0.6);
-    transform-origin: center;
-    margin: 0 0 10px 0;
+    font-size: 1.1rem;
+    margin: 0 0 15px 0; 
 }
 a {
     display: inline-block;
