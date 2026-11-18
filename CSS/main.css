@@ -26,7 +26,8 @@ body {
 }
 .video-overlay {
     position: fixed;
-    inset: 0;
+    top:0;
+    left:0;
     width: 100vh;
     height: 100vh;
     object-fit: cover;
@@ -34,6 +35,7 @@ body {
     pointer-events: none;
     mix-blend-mode: screen;
     opacity: 0.35;
+    
 }
 .bg-image {
     position: fixed;
