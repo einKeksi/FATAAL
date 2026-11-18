@@ -19,6 +19,7 @@ html, body {
     height: 100dvh;
     overflow: hidden;
 }
+
 body {
     margin: 0;
     height: 100dvh;
@@ -31,10 +32,11 @@ body {
     background-color: #111111;
     touch-action: none;
 }
+
 .video-overlay {
     position: fixed;
-    top:0;
-    left:0;
+    top: 0;
+    left: 0;
     width: 100vw;
     height: 100vh;
     object-fit: cover;
@@ -42,14 +44,15 @@ body {
     pointer-events: none;
     mix-blend-mode: screen;
     opacity: 0.35;
-    
 }
+
 .bg-image {
     position: fixed;
     inset: 0;
     z-index: 1;
     background: url('../images/blumen.jpg') center/cover no-repeat #111111;
 }
+
 .glitch-overlay {
     position: fixed;
     inset: -30px;
@@ -60,6 +63,7 @@ body {
         linear-gradient(rgba(20, 0, 20, 0.3), rgba(0, 0, 0, 0.4));
     animation: vhsOverlayGlitch 0.25s infinite steps(4);
 }     
+
 .content {
     position: relative;
     z-index: 3;
@@ -70,30 +74,50 @@ body {
     justify-content: center;
     gap: 5px;
 }
+
 .fataal-titel {
     color: #5E2B54;
     font-size: clamp(2rem, 8vw, 4.5rem);
     margin: 0;
     text-shadow: 2px 2px 0px #380d30, -1px -1px 0px #380d30, 1px -1px 0px #380d30, -1px 1px 0px #380d30, 1px 1px 0px #380d30;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
 }
+
 .fataal-subtitel {
     color: #5E2B54;
     font-size: 1.1rem;
-    margin: 0; 
+    margin: 0;
 }
+
 a {
     display: inline-block;
     margin-top: 10px;
 }
+
 a img {
     transition: transform 0.2s;
     width: 45px;
     height: 45px;
 }
+
 a img:hover {
     transform: scale(1.1);
 }
+
+/* Mobile Anpassungen */
+@media (max-width: 768px) {
+    .fataal-titel {
+        letter-spacing: 2px;
+    }
+    .fataal-subtitel {
+        font-size: 0.7rem !important;
+    }
+    a img {
+        width: 45px;
+        height: 45px;
+    }
+}
+
 @keyframes vhsOverlayGlitch {
     0% {
         transform: translate(0, 0);
