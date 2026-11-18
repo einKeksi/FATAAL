@@ -71,7 +71,7 @@ body {
 }
 .fataal-subtitel {
     color: #5E2B54;
-    font-size: clamp(0.1rem, 0.1vw, 0.1rem);
+    font-size: clamp(0.1rem, 0.1vw, 0.1rem) !important;
     margin: 0 0 15px 0;
 }
 a {
