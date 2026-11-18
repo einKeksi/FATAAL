@@ -68,21 +68,23 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 5px;
 }
 .fataal-titel {
     color: #5E2B54;
     font-size: clamp(2rem, 8vw, 4.5rem);
-    margin: 0 0 10px 0;
+    margin: 0;
     text-shadow: 2px 2px 0px #380d30, -1px -1px 0px #380d30, 1px -1px 0px #380d30, -1px 1px 0px #380d30, 1px 1px 0px #380d30;
     letter-spacing: 2px;
 }
 .fataal-subtitel {
     color: #5E2B54;
     font-size: 1.1rem;
-    margin: 0 0 15px 0; 
+    margin: 0; 
 }
 a {
     display: inline-block;
+    margin-top: 10px;
 }
 a img {
     transition: transform 0.2s;
