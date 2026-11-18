@@ -72,29 +72,6 @@ justify-content: center;
     text-shadow: 2px 2px 0px #380d30, -1px -1px 0px #380d30, 1px -1px 0px #380d30, -1px 1px 0px #380d30, 1px 1px 0px #380d30;
     letter-spacing: 2px;
 }
-.fataal-titel span {
-    display: inline-block;
-    margin-right: -0.18em;
-}
-.fataal-titel span {
-    display: inline-block;
-    margin-right: 0;
-}
-
-/* Nur nach dem 1. A (vor dem T) näher heranziehen */
-.fataal-titel span:nth-child(2) {
-    margin-right: -0.14em;
-}
-
-/* Nach dem 2. A (vor dem 3. A) so lassen wie im Screenshot */
-.fataal-titel span:nth-child(4) {
-    margin-right: 0;
-}
-
-/* Nach dem 3. A (vor dem L) ebenfalls etwas heranziehen */
-.fataal-titel span:nth-child(5) {
-    margin-right: -0.12em;
-}
 .fataal-subtitel {
 color: #5E2B54;
 font-size: 1.2rem;
