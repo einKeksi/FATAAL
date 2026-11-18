@@ -72,6 +72,10 @@ justify-content: center;
     text-shadow: 2px 2px 0px #380d30, -1px -1px 0px #380d30, 1px -1px 0px #380d30, -1px 1px 0px #380d30, 1px 1px 0px #380d30;
     letter-spacing: 2px;
 }
+.fataal-titel span {
+    display: inline-block;
+    margin-right: -2px;
+}
 .fataal-subtitel {
 color: #5E2B54;
 font-size: 1.2rem;
