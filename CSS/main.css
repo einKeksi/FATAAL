@@ -17,8 +17,8 @@
     margin-top: 2px !important;
   }
   a img {
-    width: 12px;
-    height: 12px;
+    width: 12px !important;
+    height: 12px !important;
   }
 
   @supports (-webkit-touch-callout: none) {
