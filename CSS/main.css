@@ -1,7 +1,20 @@
  @media (max-width: 768px) {
-.fataal-subtitel{
-font-size: 0.7rem !important;
-}
+  .content {
+        gap: 2px;
+    }
+  .fataal-titel {
+        line-height: 1.05;
+        margin: 0 !important;
+    }
+.fataal-subtitel {
+        font-size: 0.7rem !important;
+        transform: none !important;
+        line-height: 1.1;
+        margin: 2px 0 4px 0 !important;
+    }
+    a {
+        margin-top: 2px !important;
+    }
  a img {
   width: 20px;
   height: 20px;
