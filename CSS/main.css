@@ -71,7 +71,7 @@ body {
     letter-spacing: 4px;
 }
 .fataal-subtitel {
-    color: #5E2B54;
+    color: yellow !important;
     font-size: 1.2rem;
     transform: scale(0.6);
     transform-origin: center;
